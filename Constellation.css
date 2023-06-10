@@ -114,18 +114,20 @@ body {
 .title {
 	color: white;
 	font-family: "Nunito Sans", sans-serif;
+	font-size: 3.75rem;
 }
 
 .paragraph {
 	color: white;
 	font-family: "Nunito Sans", sans-serif;
 	margin-bottom: 5vmin;
+	font-size: 1rem;
 }
 
 .quote {
 	color: white;
 	font-family: "Nunito Sans", sans-serif;
-	font-size: 3.5vmin;
+	font-size: 2rem;
 	margin-top: 5vmin;
 	margin-bottom: 6vmin;
 }
@@ -149,18 +151,21 @@ body {
 	z-index: -1;
 	transition: all 0.5s;
 	pointer-events: none;
+	height: 100vh;
 }
 
 .bg-text-top {
-	font-size: 5rem;
+	font-size: 3rem;
+	height: 500vh;
+	overflow-y: hidden;
 	text-align: center;
 	font-family: "Nunito Sans", sans-serif;
 	color: rgb(122, 122, 122);
 	margin-top: 50vh;
 	display: block;
-	transform: translate(0, 50vh);
-	opacity: 0.1;
-	line-height: 30vmin;
+	transform: translate(25vw, 50vh);
+	opacity: 0.15;
+	line-height: 20vmin;
 }
 
 #overall {
@@ -177,10 +182,18 @@ body {
 	border-radius: 100%;
 }
 
-.rerun {
-	z-index: -10000;
-	position: absolute;
-	bottom: 5%;
-	right: 5%;
+.reflection-image {
+	z-index: 2;
+	max-width: 100%;
+	margin-bottom: 5vh;
+	object-fit: cover;
+	object-position: 100% center;
+	user-select: none;
+	transform: scale(1);
+	transition: all 0.2s ease-out;
 }
-  
+
+.reflection-image:hover {
+	transform: scale(1.03);
+	box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.107);
+}

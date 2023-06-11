@@ -60,7 +60,7 @@ body {
 }
 
 #image-track > .image {
-	width: 50vmin;
+	width: 80vmin;
 	height: 80vmin;
 	object-fit: cover;
 	object-position: 100% center;
@@ -205,4 +205,64 @@ body {
 .reflection-image:hover {
 	transform: scale(1.03);
 	box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.107);
+}
+
+.arrows {
+	width: 60px;
+    height: 72px;
+    position: absolute;
+    left: 50vw;
+    margin-top: 2vh;
+    margin-left: -30px;
+    bottom: -1.5vh;
+    scale: 0.3;
+}
+
+.arrows path {
+	stroke: #ffffff;
+	fill: transparent;
+	stroke-width: 1px;	
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+	0% {opacity:0}
+	40% {opacity:1}
+	80% {opacity:0}
+	100% {opacity:0}
+}
+
+@-webkit-keyframes arrow
+{
+	0% {opacity:0}
+	40% {opacity:1}
+	80% {opacity:0}
+	100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s;
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s;
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; 
+}
+
+footer {
+	color: white;
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 1rem;
+	font-weight: 100;
+	text-align: center;
+	margin-top: 5vmin;
+	margin-bottom: 6vmin;
 }

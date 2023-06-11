@@ -98,7 +98,6 @@ body {
 	width: 90vmin;
 	height: 90vmin;
 	object-fit: cover;
-	object-position: 100% center;
 	user-select: none;
 }
 

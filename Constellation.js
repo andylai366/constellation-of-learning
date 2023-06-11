@@ -10,7 +10,6 @@ const handleOnDown = e => {
 }
 
 const handleOnUp = () => {
-  console.log(dragging)
   track.dataset.mouseDownAt = "0";  
   track.dataset.prevPercentage = track.dataset.percentage;
 }
@@ -384,7 +383,6 @@ function openLightbox(imageSrc, num) {
   constellationQuote2.innerText = quotes2[num - 1];
   reflectionImage.src = reflectionBookImages[num - 1];
   backgroundScrollQuotes.innerText = backgroundQuotes[num - 1];
-  console.log(Math.random() * 200);
   backgroundScrollQuotes.style.transform = `translate(${Math.round(Math.random() * 100)}vw, 50vh)`
 
   if(num == 6)
@@ -445,7 +443,6 @@ function openLightbox(imageSrc, num) {
 
 lightbox.onscroll = () => {
   let pos = lightbox.scrollTop;
-  console.log(pos);
   scrollText.style.top =  `-${pos/2}px`;
 }
 
@@ -586,12 +583,7 @@ Stars(40, "overall");
 
 window.onmousedown = e => handleOnDown(e);
 
-window.ontouchstart = e => handleOnDown(e.touches[0]);
-
 window.onmouseup = e => handleOnUp(e);
-
-window.ontouchend = e => handleOnUp(e.touches[0]);
 
 window.onmousemove = e => handleOnMove(e);
 
-window.ontouchmove = e => handleOnMove(e.touches[0]);

@@ -65,6 +65,7 @@ const reflectionImage = document.getElementById("reflection-image");
 const backgroundScrollQuotes = document.getElementById("background-quotes");
 
 const constellationTitle = document.getElementById("constellation-title")
+const constellationSubtitle = document.getElementById("constellation-subtitle")
 const constellationReflection = document.getElementById("constellation-reflection")
 const constellationReflection2 = document.getElementById("constellation-reflection2")
 const constellationReflection3 = document.getElementById("constellation-reflection3")
@@ -79,7 +80,7 @@ const constellationQuote4 = document.getElementById("constellation-quote4")
 let scrollText = document.querySelector(".scroll-text");
 
 const reflections = [
-    `Throughout this novel, one recurring idea stood out to me: the trauma and treatment which the characters face. Fundamentally, the Indigenous peoples face trauma and negative treatment as they commonly face being betrayed, captured, or emotionally hurt. This realization challenged my thinking because it forced me to confront the harsh realities which the Indigenous peoples face in the past and present. It completely removed all preconceived notions I might have held, and made me reflect on how lucky I am in the modern day. I do not need to live in constant fear of traumatic situations such as being hunted. This text also connects to the course because throughout this semester, we explored certain FNMI voices or experiences. These voices and experiences closely relate to how this text sheds light on the Indigenous peoples’ mistreatment and marginalization. Additionally, both the text and course strives for truth and reconciliation for a better future.
+    `Throughout this novel, one recurring idea stood out to me: the trauma and treatment which the characters face. Fundamentally, the Indigenous peoples face trauma and negative treatment as they commonly face being betrayed, captured, or emotionally hurt. This realization challenged my thinking because it forced me to confront the harsh realities which the Indigenous peoples face in the past and present. It completely removed all preconceived notions I might have held, and made me reflect on how lucky I am in the modern day. I do not need to live in constant fear of traumatic situations such as being hunted. This text also connects to the course because throughout this semester, we explored certain FNMI voices or experiences. These voices and experiences closely relate to how this text sheds light on the Indigenous peoples’ mistreatment and marginalization. Additionally, both the text and course strives for truth and reconciliation to build a better future
 
     One example of the trauma  the Indigenous peoples face would be French’s loss of Mitch and RiRi. This situation which French experiences first hand, builds mental trauma which ultimately leaves him to suffer emotionally. 
 
@@ -93,7 +94,7 @@ const reflections = [
 
     `After reading “I Lost My Talk”  by Rita Joe and listening to the story behind it, I found that it was a very meaningful and powerful poem relating to the pure uniqueness and individuality each person has. In particular, Rita Joe utilizes very few words in her poem to convey that although there are some similarities between people, the majority of people are different through their cultural identity and voice. These differences enable people to feel valued and embrace one’s own beliefs or cultures for who they are. Unfortunately, there are also times when people take away or ignore the differences of others due to ignorance. Therefore, Rita also educates that we need to be more inclusive, learn, and reclaim the identity or voice from others. This poem challenged my thinking because I originally thought that being unique or having individuality meant to just stand out. Instead, individuality is more about being true to yourself by accepting the beliefs and cultures which make the person you are. 
 
-    As an example, Rita once had individuality, but the residential schools took this away resulting in becoming systematized. She states that,
+    As an example, Rita once had individuality, but the residential schools took this away resulting in her becoming systematized. She states that,
     `,
 
     `Following reading “Totem” by Thomas King, I immediately thought of numerous ways which the text could be interpreted. At first, the text appears to only have one significant theme or meaning; however, upon further analysis, there are different perspectives you may take to extrapolate a variety of interpretations. For instance, the first perspective I viewed this text was with the point of view of the museum employees establishing discrimination, oppression, and hate towards the totem pole. This perspective represents the colonizers who attempted to take the land, cultures, and traditions from the Indigenous peoples. Another perspective which I viewed this story from was through the totem pole that resisted changes and morally incorrect actions. This perspective illustrates the way Indigenous peoples proudly act in response to assimilation. With the many symbols and perspectives in this story, it helped me to learn and think about how each person can compose their own individual views for any story.
@@ -113,17 +114,17 @@ const reflections = [
 ];
 
 const reflections2 = [
-  ` These horrific flashbacks are not easy for anyone to overcome, let alone French when he is developing to be a more responsible person for his family. This writing element made me understand that trauma changes the actions and emotions of people dramatically. For French, he began to react strongly to situations because of his trauma or flashbacks. Even after a long time period, these events become extremely detrimental to French’s mental health as they stay in the back of his mind forever. 
+  ` These horrific flashbacks are not easy for anyone to overcome, let alone French when he is developing to be a more responsible person for his family. This writing element made me understand that trauma changes the actions and emotions of people dramatically. For French, he began to irregularly react strongly to situations because of his trauma or flashbacks. Even after a long time period, these events become extremely detrimental to French’s mental health as they stay in the back of his mind forever. 
   
-  In addition, the coming-to stories of multiple characters reveal the poor physical treatment that results from them being themselves: a distinct Indigenous individual. For instance, in Wab’s coming to story, she recalls that, 
+  In addition, the coming-to stories of multiple characters reveal the poor physical treatment that results from being themselves: a distinct Indigenous individual. For instance, in Wab’s coming to story, she recalls that, 
   `,
 
-  `Rose utilizes an analogy of the way a symphony plays as the reason why she is trying to save French. The analogy made me understand that for her family and community, everyone is linked closely together like music notes. When notes play together, they create a pleasant harmony. However, when notes are separated, they create a cacophony. In cases like this, other notes help to ensure that the impact on the music is minimal. This represents how if one person is struggling in the Indigenous family or community, others will provide their best to help, even if it is unfeasible. Through Dimaline’s analogy, it has opened up my thinking to the real significance of family and community. It provides fundamental care from others which supports and drives a person’s life.
+  `Rose utilizes an analogy of the way a symphony plays as the reason why she is trying to save French. This analogy made me understand that for her family and community, everyone is linked closely together like music notes. When notes play together, they create a pleasant harmony. However, when notes are separated, they create a cacophony. In cases like this, other notes help to ensure that the impact on the music is minimal. This represents how if one person is struggling in the Indigenous family or community, others will provide their best to help, even if it is unfeasible. Through Dimaline’s analogy, it has opened up my thinking to the real significance of family and community. It provides fundamental care from others which supports and drives a person’s life.
 
   Furthermore, at one point when French has put in a significant amount of effort into escaping the schools, he thinks, 
   `,
 
-  `The residential schools took away her culture, traditions, and her talk making her no longer unique. This prompts her to make use of parallelism and write that she is “like” the people who run the residential schools: ordinary and common. These descriptive lines with imagery and a metaphor, highlight the pure importance of being different. If each and every person in the world was the same, we would all be akin to uncollaborative and emotionless robots. As a result, I find the residential schools completely inappropriate because normalizing the Indigenous peoples to speak and act modern is ignorant along with absurd. It will only lead us down a path for an undiverse future. 
+  `The residential schools took away her culture, traditions, and her talk making her no longer unique. This prompts her to make use of parallelism and write that she is “like” the people who run the residential schools: ordinary and common. These descriptive lines with imagery and a metaphor, highlight the pure importance of being different. If each and every person in the world was the same, we would all be akin to uncollaborative and emotionless robots. As a result, I find the residential schools completely inappropriate because colonizing the Indigenous peoples to speak and act modern is ignorant along with absurd. It will only lead us humans down a path to an undiverse future. 
 
   Moreover, another example is when Rita mentions that, 
   `,
@@ -143,12 +144,12 @@ const reflections2 = [
 ]
 
 const reflections3 = [
-  `Wab was running and delivering letters for people, a valuable service at the time. However, a group sexually assaulted Wab because they were trying to start a new business. With the imagery that is utilized, it makes me have a strong appalling reaction. I find it horrible that just because characters like Wab are Indigenous, they face negative treatment of being tortured for no reason. Similarly, this event builds trauma which Wab holds on to for the rest of her life. This will affect her future actions physically and mentally. 
+  `Wab was running and delivering letters for people, a valuable service at the time. However, a group sexually assaulted Wab because they were trying to start a new business. With the imagery that is utilized, it makes me have a strong appalling reaction. I find it horrible that just because characters like Wab are Indigenous, they face negative treatment of being tortured for no reason. Similarly to French, this event builds trauma which Wab holds on to for the rest of her life. This will affect her future actions physically and mentally. 
  
-  Overall, these situations made me reflect that trauma can wreck someone physically and impact one’s psychological thinking for a long time. To conclude, The Marrow Thieves highlights the profound effects of trauma the characters face, representing the negative bias or target towards the Indigenous peoples and communities.
+  Overall, these situations made me reflect that trauma can ruin someone physically and impact one’s psychological thinking for a long time. To conclude, The Marrow Thieves highlights the profound effects of trauma the characters face, representing the negative bias or target towards the Indigenous peoples and communities.
   `,
 
-  `French understands he has done things which go against his family’s morals, but he did them in order to return to them. It is later in the story that Miig knows that French had to betray them in order to come back, but he completely understands. In a conversation between Miig and French, they said, 
+  `French understands he has done things which go against his family’s morals, but he did them in order to return to them. It is later in the story that Miig knows that French had to betray them to come back, but he is understanding. In a conversation between Miig and French, they said, 
   `,
 
   `After all that she experienced at the residential schools, Rita takes the initiative to offer those behind the residential schools to learn about her identity. This is an opportunity for her to reclaim her culture and identity to feel valued again. She strives for individuality which is about embracing her own beliefs, traditions, and cultures even if it differs from the norms around her. This further challenged my thinking as I am shocked that Rita Joe would be so open to reclamation after the torture she has sustained. I learned that holding on to grudges are pointless because they only prevent you from returning to the unique individual you once were. 
@@ -171,9 +172,9 @@ const reflections3 = [
 ]
 
 const reflections4 = [
-  `Miig has no choice, but to accept French back because his return means French prioritized family or community. French’s connection and relationship to his family and the Indigenous community is remarkably strong because he is welcomed despite betraying. He has a sense of belonging, support, and security by being with his family.
+  `Miig has no choice, but to accept French back because his return means French prioritized family or community. French’s connection and relationship to his family along with the Indigenous community is remarkably strong because he is welcomed despite betraying. He has a sense of belonging, support, and security by being with his family.
   
-  Parts of the book, such as these, challenge my thinking as I reflect that family and community ultimately helps each other navigate, bring a sense or purpose, and implement dependability. Family and community is not just those close to you who help you live, but instead it is about comfortably knowing that you always have somebody who supports you despite any mental or physical challenges. This is a characteristic which is undoubtedly one of the most important in life.`,
+  Parts of the book, such as these, challenge my thinking as I reflect that family and community ultimately helps each other navigate, bring a sense of purpose, and implement dependability. Family and community is not just the people close to you who help you live, but instead it is a relationship in which you always have somebody who supports you despite any mental or physical challenges. This is a characteristic which is undoubtedly one of the most important in life.`,
 
   `This act from the totem pole alludes to the way the Indigenous peoples resisted against the Canadian government’s horrific acts. The Indigenous peoples continuously tried to escape the system and fight for their own freedom. Much like the characters in Hunting By Stars, culture and traditions are very important to the Indigenous peoples, so as a result, any impedance causes great resistance or resilience. The way this story developed another perspective for me, expanded my thinking through broadening and uncovering gaps in my understanding. I now have a better feel for what the Indigenous peoples faced and how they responded to obstacles or hindrances.
   
@@ -363,9 +364,19 @@ const backgroundQuotes = [
   `
 ]
 
+const constellationSubtitles = [
+  "The Marrow Thieves",
+  "Hunting By Stars",
+  "I Lost My Talk",
+  "Totem",
+  "Shane Hawk",
+  "Two-Eyed Seeing"
+]
+
 function openLightbox(imageSrc, num) {
   lightboxImage.src = imageSrc;
   constellationTitle.innerText = "Constellation Reflection " + num; 
+  constellationSubtitle.innerText = constellationSubtitles[num - 1];
   constellationReflection.innerText = reflections[num - 1];
   constellationReflection2.innerText = reflections2[num - 1];
   constellationReflection3.innerText = reflections3[num - 1];
@@ -426,7 +437,7 @@ function openLightbox(imageSrc, num) {
         {opacity: `10`}
     ], 
     { 
-        duration: 10000, 
+        duration: 1000, 
         iterations: 1 
     }
   );

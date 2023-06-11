@@ -115,6 +115,15 @@ body {
 	color: white;
 	font-family: "Nunito Sans", sans-serif;
 	font-size: 3.75rem;
+	margin-bottom: 0;
+}
+
+.subtitle {
+	margin-top: 0;
+	color: white;
+	font-family: "Nunito Sans", sans-serif;
+	font-weight: 100;
+	font-size: 1.75rem;
 }
 
 .paragraph {
@@ -128,10 +137,10 @@ body {
 	color: white;
 	font-family: "Nunito Sans", sans-serif;
 	font-size: 2rem;
+	font-weight: 600;
 	margin-top: 5vmin;
 	margin-bottom: 6vmin;
 }
-
 
 .reflection {
     background-color: black;

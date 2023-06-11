@@ -209,7 +209,7 @@ const reflectionExtra = [
 const quotes = [
   `“Yelling while they dragged [Mitch] down the ladder and onto the grass…Then the door slid shut. And an engine clicked on and whirred to life. And I was alone” (Dimaline 3). French also experiences RiRi’s death and reminds himself saying, “We’d run and mourned for hours…crying out when the image of RiRi came to mind.” (Dimaline 118).`,
 
-  `“‘They do whatever it takes to be back together, no matter how impossible that might be for tiny notes stranded in an unknown body’” (Dimaline 70).`,
+  `“‘They do whatever it takes to be back together, no matter how impossible that might be for tiny notes stranded in an unknown body’” (Dimaline 69-70).`,
 
   `“You snatched it away:/I speak like you/I think like you/I create like you/The scrambled ballad, about my word” (Joe 5-9).`,
 
@@ -217,7 +217,7 @@ const quotes = [
 
   `“I just kept getting bad grades, I kept, you know, not going. Over time, I just stopped going to college” (Hawk 0:40).`,
 
-  `“[an] English speaker said this is a woman walking whereas German speaker said this is a woman walking to her car” (Thomas 1:14-:1:20).`,
+  `“[an] English speaker said this is a woman walking whereas German speaker said this is a woman walking to her car” (Thomas 1:5).`,
 ]
 
 const quotes2 = [
@@ -229,25 +229,25 @@ const quotes2 = [
 
   `“started shouting, loud, explosive shouts that echoed through the collection of sea scenes and made the paintings on the wall tremble ever so slightly” (King 3).`,
 
-  `“I didn’t think anyone was going to read it at all” (Hawk 4:05)."`,
+  `“I didn’t think anyone was going to read it at all” (Hawk 4:03)."`,
 
-  `“you see Nova Scotia, Nouvelle-Écosse, Canada we see Mi'kmaq, traditional territory, Turtle island. It’s not either or, it’s both at the same time” (Thomas 8:58-9:12).`,
+  `“you see Nova Scotia, Nouvelle-Écosse, Canada we see Mi'kmaq, traditional territory, Turtle island. It’s not either or, it’s both at the same time” (Thomas 9:01).`,
 ]
 
 const quotes3 = [
-  `“‘But...but you were dead. You...you died.’ ‘I didn’t. I got out.’ ‘But then…’ He leaned in…looking, searching for something—the truth of me, of who I was then” (Dimaline 269-270).`,
+  `“‘But...but you were dead. You...you died.’ ‘I didn’t. I got out.’ ‘But then…’ He leaned in…looking, searching for something—the truth of me, of who I was then” (Dimaline 270-271).`,
 
   `“singing. It started with a high, wailing, nasal sound and then fell back” (King 3).`,
 
-  `“I think you have to fail to get somewhere…shows that you are trying” (Hawk 1:15).`,
+  `“I think you have to fail in order to get somewhere…shows that you are trying” (Hawk 1:15).`,
 
   `“you see Nova Scotia, Nouvelle-Écosse, Canada we see Mi'kma'ki, traditional territory, Turtle island. It’s not either or, it’s both at the same time” (Thomas 8:58-9:12).`,
 ]
 
 const quotes4 = [
-  `“in December 2020, I was on oxygen machines” (Hawk 11:10) and as a result, he reflects that “life is short” (Hawk 11:53).`,
+  `“in December 2020, I was on oxygen machines” (Hawk 11:03) and as a result, he reflects that “life is short” (Hawk 11:50).`,
 
-  `“the language you speak fundamentally shapes your worldview and everything that goes along with it” (Thomas 0:13-0:20).`,
+  `“the language you speak fundamentally shapes your worldview and everything that goes along with it” (Thomas 0:16).`,
 ]
 
 const reflectionBookImages = [

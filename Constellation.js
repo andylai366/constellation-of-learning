@@ -211,7 +211,7 @@ const quotes = [
 
   `“I just kept getting bad grades, I kept, you know, not going. Over time, I just stopped going to college” (Hawk 0:40).`,
 
-  `“[an] English speaker said this is a woman walking whereas German speaker said this is a woman walking to her car” (Thomas 1:5).`,
+  `“[an] English speaker said this is a woman walking whereas German speaker said this is a woman walking to her car” (Thomas 1:15).`,
 ]
 
 const quotes2 = [

@@ -60,7 +60,7 @@ body {
 }
 
 #image-track > .image {
-	width: 80vmin;
+	width: 50vmin;
 	height: 80vmin;
 	object-fit: cover;
 	object-position: 100% center;

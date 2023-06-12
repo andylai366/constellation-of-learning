@@ -200,11 +200,6 @@ const reflections5 = [
   `,
 ]
 
-const reflectionExtra = [
-  `Following being cut down numerous times, the totem pole became an even greater obstacle against the museum. 
-  `,
-]
-
 const quotes = [
   `“Yelling while they dragged [Mitch] down the ladder and onto the grass…Then the door slid shut. And an engine clicked on and whirred to life. And I was alone” (Dimaline 3). French also experiences RiRi’s death and reminds himself saying, “We’d run and mourned for hours…crying out when the image of RiRi came to mind.” (Dimaline 118).`,
 
@@ -373,6 +368,7 @@ const constellationSubtitles = [
 ]
 
 function openLightbox(imageSrc, num) {
+  console.log(num)
   lightboxImage.src = imageSrc;
   constellationTitle.innerText = "Constellation Reflection " + num; 
   constellationSubtitle.innerText = constellationSubtitles[num - 1];
@@ -390,7 +386,6 @@ function openLightbox(imageSrc, num) {
     constellationQuote4.innerText = quotes4[1];
     constellationReflection5.innerText = reflections5[1];
   }
-
   else if(num == 5)
   {
     constellationQuote3.innerText = quotes3[2];
@@ -398,14 +393,11 @@ function openLightbox(imageSrc, num) {
     constellationQuote4.innerText = quotes4[0];
     constellationReflection5.innerText = reflections5[0];
   }
-  
-
   else if(num == 4)
   {
     constellationQuote3.innerText = quotes3[1];
     constellationReflection4.innerText = reflections4[1];
   }
-
   else if (num == 2)
   {
     constellationQuote3.innerText = quotes3[0];
@@ -451,6 +443,15 @@ function closeLightbox() {
   lightbox.style.display = "none";
   lightbox.style.flexDirection = "none"
   lightbox.style.justifyContent = "none"
+  constellationReflection.innerText = "";
+  constellationReflection2.innerText = "";
+  constellationReflection3.innerText = "";
+  constellationReflection4.innerText = "";
+  constellationReflection5.innerText = "";
+  constellationQuote.innerText = "";
+  constellationQuote2.innerText = "";
+  constellationQuote3.innerText = "";
+  constellationQuote4.innerText = "";
 }
 
 function handleImageClick(e) {
